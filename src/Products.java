@@ -27,9 +27,8 @@ public class Products
         yDelivery = checkYear(yDelivery);
         yExp = checkYear(yExp);
         this.deliveryDay = LocalDate.of(dDelivery, mDelivery, yDelivery);
-        this.expirationDate = LocalDate.of(dExp, mExp, yExp);
+        this.expirationDate = LocalDate.of(yExp, mExp, dExp);
     }
-
 
 
     public static int getId() {
@@ -59,11 +58,11 @@ public class Products
 
     public void setDeliveryDay(final int d, final int m, int y) {
         y = checkYear(y);
-        this.deliveryDay = LocalDate.of(d, m, y);
+        this.deliveryDay = LocalDate.of(y, m, d);
     }
 
     public void setExpirationDate(final int d, final int m, int y) {
         y = checkYear(y);
-        this.expirationDate = LocalDate.of(d, m, y);
+        this.expirationDate = LocalDate.of(y, m, d);
     }
 }
