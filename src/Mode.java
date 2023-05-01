@@ -6,6 +6,7 @@ public class Mode {
         {
             default -> { incorrectVal(); }
             case "New" -> { newProduct(); }
+            case "Show" -> {}
         }
     }
     private static void incorrectVal()
@@ -29,5 +30,13 @@ public class Mode {
         int yE = Integer.parseInt(Input.in());
         Products newProduct = new Products(name, amount, dD, mD, dY, dE, mE, yE);
         Products.addToList(newProduct);
+    }
+    private static void show()
+    {
+        Products[] list = Products.getList();
+        for (Products e : list)
+        {
+            Print.product(e);
+        }
     }
 }
