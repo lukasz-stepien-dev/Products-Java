@@ -9,6 +9,15 @@ public class Products
     private LocalDate deliveryDay;
     private LocalDate expirationDate;
 
+    private int checkYear(int y) {
+        if (y == 0) {
+            return LocalDate.now().getYear();
+        }
+        else {
+            return y;
+        }
+    }
+
     public Products(String n, long a, int dDelivery, int mDelivery, int yDelivery, int dExp, int mExp, int yExp)
     {
         Products.id += 1;
