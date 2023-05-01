@@ -2,15 +2,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Print {
-    private final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/YYYY");
-
-    public static void menu() {
-        System.out.println("----------------------------------");
-        System.out.println("\"New\" - create new product");
-        System.out.println("\"Edit\" - edit a product");
-        System.out.println("\"Show\" - show all products");
-        System.out.println("----------------------------------");
-    }
+    private final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public static <T> void out (T x) {
         System.out.print(x);
     }
