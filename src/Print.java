@@ -2,6 +2,13 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Print {
+    public static void product(Products p)
+    {
+        Print.ln(p.getName());
+        Print.ln(p.getAmount());
+        Print.ln(p.getDeliveryDay());
+        Print.ln(p.getExpirationDate());
+    }
     private final static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     public static <T> void out (T x) {
         System.out.print(x);
