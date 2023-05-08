@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="Implement checkYear and add setExpirationDate in Products.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
+    <list default="true" id="f98ece3d-99ca-4025-be75-93ead5b39bd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +16,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2P4N9ITBV4Pxdmb32vPyPTs7iHX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PVntQu5S4p5iCUcSW04tu1kGzv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,73 +36,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "mode",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/Users/macbookpro/IdeaProjects/Products/src/Main.java",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="APP" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Products-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="" />
-      <created>1682712246783</created>
+      <changelist id="f98ece3d-99ca-4025-be75-93ead5b39bd8" name="Changes" comment="" />
+      <created>1683551330871</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682712246783</updated>
-      <workItem from="1682712248091" duration="602000" />
-      <workItem from="1682846154175" duration="377000" />
-      <workItem from="1682878558866" duration="557000" />
-      <workItem from="1682946464068" duration="3981000" />
+      <updated>1683551330871</updated>
+      <workItem from="1683551332798" duration="298000" />
+      <workItem from="1683551664317" duration="1320000" />
     </task>
-    <task id="LOCAL-00001" summary="Create empty project">
-      <created>1682712323237</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712323237</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add empty class Products.java">
-      <created>1682712346175</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712346175</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Create variables in Products.java">
-      <created>1682712839845</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712839845</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Create constructor, getters, setters">
-      <created>1682947952139</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1682947952139</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Create private checkYear method in Products.java">
-      <created>1682948023290</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1682948023290</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implement checkYear and add setExpirationDate in Products.java">
-      <created>1682948308773</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1682948308773</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,14 +83,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create empty project" />
-    <MESSAGE value="Add empty class Products.java" />
-    <MESSAGE value="Create variables in Products.java" />
-    <MESSAGE value="Create constructor, getters, setters" />
-    <MESSAGE value="Create private checkYear method in Products.java" />
-    <MESSAGE value="Implement checkYear and add setExpirationDate in Products.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement checkYear and add setExpirationDate in Products.java" />
   </component>
 </project>
