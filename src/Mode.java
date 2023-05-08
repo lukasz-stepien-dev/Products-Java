@@ -6,7 +6,7 @@ public class Mode {
         {
             default -> { incorrectVal(); }
             case "New" -> { newProduct(); }
-            case "Show" -> {}
+            case "Show" -> {show();}
         }
     }
     private static void incorrectVal()
@@ -21,14 +21,15 @@ public class Mode {
         String name = Input.in();
         Print.ln("Type amount: ");
         long amount = Long.parseLong(Input.in());
-        Print.ln("Type delivery day (DD MM YYYY)");
+        Print.ln("Type delivery day (DD MM YYYY):");
         int dD = Integer.parseInt(Input.in());
         int mD = Integer.parseInt(Input.in());
-        int dY = Integer.parseInt(Input.in());
+        int yD = Integer.parseInt(Input.in());
+        Print.ln("Type your expiration day(DD MM YYYY):");
         int dE = Integer.parseInt(Input.in());
         int mE = Integer.parseInt(Input.in());
         int yE = Integer.parseInt(Input.in());
-        Products newProduct = new Products(name, amount, dD, mD, dY, dE, mE, yE);
+        Products newProduct = new Products(name, amount, dD, mD, yD, dE, mE, yE);
         Products.addToList(newProduct);
     }
     private static void show()

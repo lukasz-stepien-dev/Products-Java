@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="Implement checkYear and add setExpirationDate in Products.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
+    <list default="true" id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="Make showing option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2P4N9ITBV4Pxdmb32vPyPTs7iHX" />
@@ -33,21 +35,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/Users/macbookpro/IdeaProjects/Products/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/macbookpro/IdeaProjects/Products/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Products" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +70,10 @@
       <workItem from="1682712248091" duration="602000" />
       <workItem from="1682846154175" duration="377000" />
       <workItem from="1682878558866" duration="557000" />
-      <workItem from="1682946464068" duration="3981000" />
+      <workItem from="1682946464068" duration="4758000" />
+      <workItem from="1682953058156" duration="52000" />
+      <workItem from="1682961111630" duration="17000" />
+      <workItem from="1682966306119" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="Create empty project">
       <created>1682712323237</created>
@@ -103,7 +117,70 @@
       <option name="project" value="LOCAL" />
       <updated>1682948308773</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Correct format date in Products.java">
+      <created>1682952335014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682952335014</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create own printing class that name Print.java">
+      <created>1682952430766</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682952430766</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Make Menu.java and move from Print.java method menu to it">
+      <created>1682967743205</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682967743205</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Make Input.java that can get String from user">
+      <created>1682967783621</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682967783621</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Make Menu.java with printing adg geetting choice from user">
+      <created>1682969791521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682969791521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Make Mode.java with handling incorrect value and adding new product method">
+      <created>1682969837563</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682969837563</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Make static list of products in Products.java">
+      <created>1682969865240</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682969865240</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add printing product info in Print.java">
+      <created>1682970392140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682970392140</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Make showing option">
+      <created>1682970517617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682970517617</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +204,15 @@
     <MESSAGE value="Create constructor, getters, setters" />
     <MESSAGE value="Create private checkYear method in Products.java" />
     <MESSAGE value="Implement checkYear and add setExpirationDate in Products.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement checkYear and add setExpirationDate in Products.java" />
+    <MESSAGE value="Correct format date in Products.java" />
+    <MESSAGE value="Create own printing class that name Print.java" />
+    <MESSAGE value="Make Menu.java and move from Print.java method menu to it" />
+    <MESSAGE value="Make Input.java that can get String from user" />
+    <MESSAGE value="Make Menu.java with printing adg geetting choice from user" />
+    <MESSAGE value="Make Mode.java with handling incorrect value and adding new product method" />
+    <MESSAGE value="Make static list of products in Products.java" />
+    <MESSAGE value="Add printing product info in Print.java" />
+    <MESSAGE value="Make showing option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make showing option" />
   </component>
 </project>
