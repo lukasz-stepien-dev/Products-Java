@@ -32,6 +32,7 @@ public class Mode {
         int yE = Integer.parseInt(Input.in());
         Products newProduct = new Products(name, amount, dD, mD, yD, dE, mE, yE);
         Products.addToList(newProduct);
+        Info.added();
     }
     private static void show()
     {
