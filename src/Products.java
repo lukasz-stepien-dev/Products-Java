@@ -24,7 +24,7 @@ public class Products
         this.amount = a;
         yDelivery = checkYear(yDelivery);
         yExp = checkYear(yExp);
-        this.deliveryDay = LocalDate.of(dDelivery, mDelivery, yDelivery);
+        this.deliveryDay = LocalDate.of(yDelivery, mDelivery, dDelivery);
         this.expirationDate = LocalDate.of(yExp, mExp, dExp);
     }
 
