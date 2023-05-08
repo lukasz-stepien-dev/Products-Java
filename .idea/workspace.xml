@@ -4,56 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="Make showing option">
+    <list default="true" id="f98ece3d-99ca-4025-be75-93ead5b39bd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2P4N9ITBV4Pxdmb32vPyPTs7iHX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PVntQu5S4p5iCUcSW04tu1kGzv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;mode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/macbookpro/IdeaProjects/Products/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "mode",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="APP" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Products" />
+      <module name="Products-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,125 +60,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5aab0a41-977c-4d47-83b7-96ee02741784" name="Changes" comment="" />
-      <created>1682712246783</created>
+      <changelist id="f98ece3d-99ca-4025-be75-93ead5b39bd8" name="Changes" comment="" />
+      <created>1683551330871</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682712246783</updated>
-      <workItem from="1682712248091" duration="602000" />
-      <workItem from="1682846154175" duration="377000" />
-      <workItem from="1682878558866" duration="557000" />
-      <workItem from="1682946464068" duration="4758000" />
-      <workItem from="1682953058156" duration="52000" />
-      <workItem from="1682961111630" duration="17000" />
-      <workItem from="1682966306119" duration="5199000" />
+      <updated>1683551330871</updated>
+      <workItem from="1683551332798" duration="298000" />
+      <workItem from="1683551664317" duration="1320000" />
     </task>
-    <task id="LOCAL-00001" summary="Create empty project">
-      <created>1682712323237</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712323237</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add empty class Products.java">
-      <created>1682712346175</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712346175</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Create variables in Products.java">
-      <created>1682712839845</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1682712839845</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Create constructor, getters, setters">
-      <created>1682947952139</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1682947952139</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Create private checkYear method in Products.java">
-      <created>1682948023290</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1682948023290</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implement checkYear and add setExpirationDate in Products.java">
-      <created>1682948308773</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1682948308773</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Correct format date in Products.java">
-      <created>1682952335014</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1682952335014</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Create own printing class that name Print.java">
-      <created>1682952430766</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1682952430766</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Make Menu.java and move from Print.java method menu to it">
-      <created>1682967743205</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1682967743205</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Make Input.java that can get String from user">
-      <created>1682967783621</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1682967783621</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Make Menu.java with printing adg geetting choice from user">
-      <created>1682969791521</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1682969791521</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Make Mode.java with handling incorrect value and adding new product method">
-      <created>1682969837563</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1682969837563</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Make static list of products in Products.java">
-      <created>1682969865240</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1682969865240</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Add printing product info in Print.java">
-      <created>1682970392140</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1682970392140</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Make showing option">
-      <created>1682970517617</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1682970517617</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,23 +83,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create empty project" />
-    <MESSAGE value="Add empty class Products.java" />
-    <MESSAGE value="Create variables in Products.java" />
-    <MESSAGE value="Create constructor, getters, setters" />
-    <MESSAGE value="Create private checkYear method in Products.java" />
-    <MESSAGE value="Implement checkYear and add setExpirationDate in Products.java" />
-    <MESSAGE value="Correct format date in Products.java" />
-    <MESSAGE value="Create own printing class that name Print.java" />
-    <MESSAGE value="Make Menu.java and move from Print.java method menu to it" />
-    <MESSAGE value="Make Input.java that can get String from user" />
-    <MESSAGE value="Make Menu.java with printing adg geetting choice from user" />
-    <MESSAGE value="Make Mode.java with handling incorrect value and adding new product method" />
-    <MESSAGE value="Make static list of products in Products.java" />
-    <MESSAGE value="Add printing product info in Print.java" />
-    <MESSAGE value="Make showing option" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make showing option" />
   </component>
 </project>

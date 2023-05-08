@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class Mode {
     public static void choice(String mode)
@@ -34,7 +35,7 @@ public class Mode {
     }
     private static void show()
     {
-        Products[] list = Products.getList();
+        List<Products> list = Products.getList();
         for (Products e : list)
         {
             Print.product(e);

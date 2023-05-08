@@ -1,9 +1,11 @@
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class Products
 {
-    private static Products list[];
+    static List<Products> list = new ArrayList<Products>();
     private static int id = 0;
     private String name;
     private long amount;
@@ -44,8 +46,8 @@ public class Products
     public LocalDate getExpirationDate() {
         return expirationDate;
     }
-    public static Products[] getList() {
-        return list;
+    public static List<Products> getList() {
+        return Products.list;
     }
     public void setName(String name) {
         this.name = name;
@@ -63,7 +65,6 @@ public class Products
     }
 
     public static void addToList(Products newProduct) {
-        int length = Products.list.length;
-        Products.list[length] = newProduct;
+        Products.list.add(newProduct);
     }
 }
